@@ -1,0 +1,50 @@
+# 🧠 **Explorando o Azure Language Studio**
+
+**Tempo estimado:** ~10 minutos 🕒  
+**Objetivo:** Utilizar o Azure Language Studio para análise de sentimentos e opiniões com texto. 🌟  
+
+---
+
+## 🛠️ **Como foi o processo?**
+
+1️⃣ **Configuração Inicial**  
+   - Primeiro, acesse o [Azure Language Studio](https://language.cognitive.azure.com/tryout/sentiment) e selecione a ferramenta de análise de sentimentos e opiniões.  
+   - Escolha o idioma do texto (exemplo: Português do Brasil 🇧🇷) e conecte ao seu recurso do Azure. Certifique-se de ter uma assinatura ativa ou usar o plano gratuito (*F0*).  
+
+2️⃣ **Inserindo o texto**  
+   - Você pode digitar diretamente no campo de texto, arrastar e soltar arquivos `.txt` ou selecionar exemplos fornecidos pela plataforma. 📝  
+   - No nosso teste, utilizamos o seguinte texto:  
+     *"O serviço do hotel foi maravilhoso. Fomos super bem recebidos, com direito a coquetel de boas-vindas. O café da manhã é completo, e o pessoal que trabalho no hotel é super atencioso. Recomendamos e voltaremos."*
+
+3️⃣ **Rodando a análise**  
+   - Marque a opção *Enable opinion mining* para realizar uma análise mais detalhada de opiniões ligadas a atributos específicos.  
+   - Clique em `Run` e aguarde os resultados! 🚀  
+
+---
+
+## 🎯 **Resultados**
+
+- **Sentimento geral do documento:** Positivo com 97% de confiança!  
+- **Sentimentos por frase:**  
+  1. *"O serviço do hotel foi maravilhoso."*  
+     - Sentimento: **Positivo**  
+     - Confiança: 100%  
+     - **Opinião:** "Serviço - maravilhoso"  
+  2. Outras frases também foram avaliadas como positivas.  
+- Resultado em formato JSON disponível para download ou visualização!  
+
+---
+
+## ⚠️ **Pontos de atenção**
+
+1. **Custos adicionais**: Mesmo no plano gratuito, algumas operações podem gerar cobranças. Consulte a [página de preços](https://azure.microsoft.com/en-us/pricing/) antes de usar extensivamente.  
+2. **Qualidade do texto inserido**: Para obter análises precisas, evite textos muito curtos ou ambíguos. A ferramenta funciona melhor com frases claras e bem estruturadas.  
+3. **Configuração do recurso no Azure**: Certifique-se de configurar corretamente seu recurso para evitar problemas de conexão.  
+
+---
+
+## 💡 **Dicas para usuários**
+
+- **Teste com diferentes tipos de texto**: Experimente análises em e-mails, postagens de redes sociais, avaliações de clientes, entre outros. 🌟  
+- **Use para decisões estratégicas**: Os insights podem ajudar em pesquisas de mercado, estratégias de atendimento ao cliente e muito mais.  
+- **Explore outras ferramentas**: Além da análise de sentimentos, o Language Studio oferece opções como detecção de entidades e extração de frases-chave.  
